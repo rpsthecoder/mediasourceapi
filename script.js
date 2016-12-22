@@ -5,8 +5,8 @@ try {
     var mime = 'audio/mpeg';
 
     if (!MediaSource.isTypeSupported(mime)) {
-        alert('Can not play the media. Media of MIME type' + mime + 'is not supported.');
-        throw ('Media of type' + mime + 'is not supported.');
+        alert('Can not play the media. Media of MIME type ' + mime + ' is not supported.');
+        throw ('Media of type ' + mime + ' is not supported.');
     }
 
     var audio = document.querySelector('audio'),
