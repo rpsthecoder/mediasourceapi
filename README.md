@@ -1,5 +1,5 @@
 # MediaSource API (JavaScript) Demo
-Stream truncated MP3 audio using JavaScript's MediaSource API.
+Stream truncated MP3 audio using JavaScript's MediaSource API. <a href="http://bit.ly/mediasrc" target=_blank>Github Page</a>.
 
 
 
