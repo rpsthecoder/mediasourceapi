@@ -19,6 +19,7 @@ try {
         sourceBuffer.appendWindowEnd = 4.0;
         var xhr = new XMLHttpRequest;
         xhr.open('GET', 'https://raw.githubusercontent.com/rpsthecoder/mediasourceapi/master/sample.mp3');
+        // xhr.open('GET', 'sample.mp3'); /* while testing in localhost */
         xhr.responseType = 'arraybuffer';
         xhr.onload = function() {
             try {
